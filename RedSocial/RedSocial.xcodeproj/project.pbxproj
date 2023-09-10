@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43148A382AACAF73007266C1 /* RedSocialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A372AACAF73007266C1 /* RedSocialApp.swift */; };
+		43148A3A2AACAF73007266C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A392AACAF73007266C1 /* ContentView.swift */; };
+		43148A3C2AACAF75007266C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43148A3B2AACAF75007266C1 /* Assets.xcassets */; };
+		43148A3F2AACAF75007266C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43148A3E2AACAF75007266C1 /* Preview Assets.xcassets */; };
+		43148A4E2AACB008007266C1 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A4D2AACB008007266C1 /* FeedView.swift */; };
+		43148A512AACB0BF007266C1 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A502AACB0BF007266C1 /* TweetRowView.swift */; };
+		43148A542AACB671007266C1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A532AACB671007266C1 /* MainTabView.swift */; };
+		43148A592AACB927007266C1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A582AACB927007266C1 /* ProfileView.swift */; };
+		43148A5C2AACB94A007266C1 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A5B2AACB94A007266C1 /* MessagesView.swift */; };
+		43148A602AACB96F007266C1 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A5F2AACB96F007266C1 /* NotificationsView.swift */; };
+		43148A622AACB97E007266C1 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43148A612AACB97E007266C1 /* ExploreView.swift */; };
+		4380006F2AAE2DB900B153F6 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380006E2AAE2DB900B153F6 /* TweetFilterViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43148A342AACAF73007266C1 /* RedSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43148A372AACAF73007266C1 /* RedSocialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSocialApp.swift; sourceTree = "<group>"; };
+		43148A392AACAF73007266C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43148A3B2AACAF75007266C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43148A3E2AACAF75007266C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43148A4D2AACB008007266C1 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		43148A502AACB0BF007266C1 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
+		43148A532AACB671007266C1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		43148A582AACB927007266C1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		43148A5B2AACB94A007266C1 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		43148A5F2AACB96F007266C1 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		43148A612AACB97E007266C1 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		4380006E2AAE2DB900B153F6 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43148A312AACAF73007266C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43148A2B2AACAF73007266C1 = {
+			isa = PBXGroup;
+			children = (
+				43148A362AACAF73007266C1 /* RedSocial */,
+				43148A352AACAF73007266C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43148A352AACAF73007266C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43148A342AACAF73007266C1 /* RedSocial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43148A362AACAF73007266C1 /* RedSocial */ = {
+			isa = PBXGroup;
+			children = (
+				43148A452AACAF87007266C1 /* Extensions */,
+				43148A462AACAF8F007266C1 /* Model */,
+				43148A472AACAF96007266C1 /* Service */,
+				43148A482AACAF9D007266C1 /* Core */,
+				43148A372AACAF73007266C1 /* RedSocialApp.swift */,
+				43148A392AACAF73007266C1 /* ContentView.swift */,
+				43148A3B2AACAF75007266C1 /* Assets.xcassets */,
+				43148A3D2AACAF75007266C1 /* Preview Content */,
+			);
+			path = RedSocial;
+			sourceTree = "<group>";
+		};
+		43148A3D2AACAF75007266C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43148A3E2AACAF75007266C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43148A452AACAF87007266C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		43148A462AACAF8F007266C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43148A472AACAF96007266C1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		43148A482AACAF9D007266C1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				43148A4A2AACAFB6007266C1 /* Components */,
+				43148A552AACB903007266C1 /* Profile */,
+				43148A5D2AACB959007266C1 /* Explore */,
+				43148A5E2AACB960007266C1 /* Notifications */,
+				43148A5A2AACB93A007266C1 /* Messages */,
+				43148A522AACB65F007266C1 /* MainTab */,
+				43148A492AACAFAB007266C1 /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		43148A492AACAFAB007266C1 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				43148A4C2AACAFE5007266C1 /* Views */,
+				43148A4B2AACAFDC007266C1 /* ViewModels */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		43148A4A2AACAFB6007266C1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				43148A4F2AACB0A3007266C1 /* Tweets */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		43148A4B2AACAFDC007266C1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		43148A4C2AACAFE5007266C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43148A4D2AACB008007266C1 /* FeedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43148A4F2AACB0A3007266C1 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				43148A502AACB0BF007266C1 /* TweetRowView.swift */,
+			);
+			path = Tweets;
+			sourceTree = "<group>";
+		};
+		43148A522AACB65F007266C1 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				43148A532AACB671007266C1 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		43148A552AACB903007266C1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				437AA4DF2AADC2B600D1C72D /* ViewModels */,
+				437AA4DE2AADC2AF00D1C72D /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		43148A5A2AACB93A007266C1 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				43148A5B2AACB94A007266C1 /* MessagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		43148A5D2AACB959007266C1 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				43148A612AACB97E007266C1 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		43148A5E2AACB960007266C1 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				43148A5F2AACB96F007266C1 /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		437AA4DE2AADC2AF00D1C72D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43148A582AACB927007266C1 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		437AA4DF2AADC2B600D1C72D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4380006E2AAE2DB900B153F6 /* TweetFilterViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43148A332AACAF73007266C1 /* RedSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43148A422AACAF75007266C1 /* Build configuration list for PBXNativeTarget "RedSocial" */;
+			buildPhases = (
+				43148A302AACAF73007266C1 /* Sources */,
+				43148A312AACAF73007266C1 /* Frameworks */,
+				43148A322AACAF73007266C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedSocial;
+			productName = RedSocial;
+			productReference = 43148A342AACAF73007266C1 /* RedSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43148A2C2AACAF73007266C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					43148A332AACAF73007266C1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43148A2F2AACAF73007266C1 /* Build configuration list for PBXProject "RedSocial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43148A2B2AACAF73007266C1;
+			productRefGroup = 43148A352AACAF73007266C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43148A332AACAF73007266C1 /* RedSocial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43148A322AACAF73007266C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43148A3F2AACAF75007266C1 /* Preview Assets.xcassets in Resources */,
+				43148A3C2AACAF75007266C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43148A302AACAF73007266C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43148A3A2AACAF73007266C1 /* ContentView.swift in Sources */,
+				43148A622AACB97E007266C1 /* ExploreView.swift in Sources */,
+				43148A512AACB0BF007266C1 /* TweetRowView.swift in Sources */,
+				43148A4E2AACB008007266C1 /* FeedView.swift in Sources */,
+				4380006F2AAE2DB900B153F6 /* TweetFilterViewModel.swift in Sources */,
+				43148A382AACAF73007266C1 /* RedSocialApp.swift in Sources */,
+				43148A5C2AACB94A007266C1 /* MessagesView.swift in Sources */,
+				43148A592AACB927007266C1 /* ProfileView.swift in Sources */,
+				43148A542AACB671007266C1 /* MainTabView.swift in Sources */,
+				43148A602AACB96F007266C1 /* NotificationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43148A402AACAF75007266C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43148A412AACAF75007266C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43148A432AACAF75007266C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedSocial/Preview Content\"";
+				DEVELOPMENT_TEAM = 47XP8ZLR32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielboza.RedSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43148A442AACAF75007266C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RedSocial/Preview Content\"";
+				DEVELOPMENT_TEAM = 47XP8ZLR32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = danielboza.RedSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43148A2F2AACAF73007266C1 /* Build configuration list for PBXProject "RedSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43148A402AACAF75007266C1 /* Debug */,
+				43148A412AACAF75007266C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43148A422AACAF75007266C1 /* Build configuration list for PBXNativeTarget "RedSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43148A432AACAF75007266C1 /* Debug */,
+				43148A442AACAF75007266C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43148A2C2AACAF73007266C1 /* Project object */;
+}
