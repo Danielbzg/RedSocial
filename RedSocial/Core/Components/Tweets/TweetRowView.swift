@@ -14,7 +14,7 @@ struct TweetRowView: View {
 
                 Circle()
                     .frame(width: 56, height: 56)
-                    .foregroundColor(Color(.systemIndigo))
+                    .foregroundColor(Color(.systemBlue))
 
                 //Información usuario y espacio del tweet
                 VStack(alignment: .leading, spacing: 4) {

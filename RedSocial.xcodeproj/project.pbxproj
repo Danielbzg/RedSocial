@@ -25,6 +25,8 @@
 		437E5CD22AB5B0380040EB5F /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437E5CD12AB5B0380040EB5F /* UserStatView.swift */; };
 		4380006F2AAE2DB900B153F6 /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4380006E2AAE2DB900B153F6 /* TweetFilterViewModel.swift */; };
 		43C796E22AB64E68004F80B1 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C796E12AB64E68004F80B1 /* SideMenuOptionRowView.swift */; };
+		43C796E72AB66BB2004F80B1 /* NewTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C796E62AB66BB2004F80B1 /* NewTweetView.swift */; };
+		43C796EA2AB67028004F80B1 /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C796E92AB67028004F80B1 /* TextArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		437E5CD12AB5B0380040EB5F /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		4380006E2AAE2DB900B153F6 /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 		43C796E12AB64E68004F80B1 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
+		43C796E62AB66BB2004F80B1 /* NewTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetView.swift; sourceTree = "<group>"; };
+		43C796E92AB67028004F80B1 /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,13 +128,14 @@
 			isa = PBXGroup;
 			children = (
 				43148A4A2AACAFB6007266C1 /* Components */,
+				43C796E32AB66B79004F80B1 /* UploadTweet */,
 				437E5CC82AB5ADD10040EB5F /* SideMenu */,
+				43148A522AACB65F007266C1 /* MainTab */,
 				43148A552AACB903007266C1 /* Profile */,
+				43148A492AACAFAB007266C1 /* Feed */,
 				43148A5D2AACB959007266C1 /* Explore */,
 				43148A5E2AACB960007266C1 /* Notifications */,
 				43148A5A2AACB93A007266C1 /* Messages */,
-				43148A522AACB65F007266C1 /* MainTab */,
-				43148A492AACAFAB007266C1 /* Feed */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			children = (
 				437E5CC52AB5AA730040EB5F /* User */,
 				43148A4F2AACB0A3007266C1 /* Tweets */,
+				43C796E92AB67028004F80B1 /* TextArea.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -269,6 +275,30 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		43C796E32AB66B79004F80B1 /* UploadTweet */ = {
+			isa = PBXGroup;
+			children = (
+				43C796E52AB66B9C004F80B1 /* Views */,
+				43C796E42AB66B8E004F80B1 /* ViewModel */,
+			);
+			path = UploadTweet;
+			sourceTree = "<group>";
+		};
+		43C796E42AB66B8E004F80B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		43C796E52AB66B9C004F80B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43C796E62AB66BB2004F80B1 /* NewTweetView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,8 +376,10 @@
 				43148A4E2AACB008007266C1 /* FeedView.swift in Sources */,
 				4380006F2AAE2DB900B153F6 /* TweetFilterViewModel.swift in Sources */,
 				43148A382AACAF73007266C1 /* RedSocialApp.swift in Sources */,
+				43C796EA2AB67028004F80B1 /* TextArea.swift in Sources */,
 				437E5CCC2AB5AE0A0040EB5F /* SideMenuView.swift in Sources */,
 				437E5CD22AB5B0380040EB5F /* UserStatView.swift in Sources */,
+				43C796E72AB66BB2004F80B1 /* NewTweetView.swift in Sources */,
 				43148A5C2AACB94A007266C1 /* MessagesView.swift in Sources */,
 				43148A592AACB927007266C1 /* ProfileView.swift in Sources */,
 				437E5CD02AB5AE330040EB5F /* SideMenuViewModel.swift in Sources */,
