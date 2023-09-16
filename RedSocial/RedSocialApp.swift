@@ -11,7 +11,9 @@ import SwiftUI
 struct RedSocialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+            }
         }
     }
 }
