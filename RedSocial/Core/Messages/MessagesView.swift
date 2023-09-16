@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MessagesView.swift
 //  RedSocial
 //
 //  Created by Daniel Boza García on 9/9/23.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MessagesView: View {
     var body: some View {
-        MainTabView()
+        Text("Messages view")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MessagesView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MessagesView()
     }
 }
