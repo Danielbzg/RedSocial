@@ -28,6 +28,7 @@ struct NewTweetView: View {
                     print("Tweet")
                 } label: {
                     Text("Tweet")
+                        .bold()
                         .padding(.horizontal)
                         .padding(.vertical, 8)
                         .background(Color(.systemBlue))
