@@ -25,7 +25,7 @@ struct FeedView: View {
             Button {
                 showNewTweetView.toggle()
             } label: {
-                Image(systemName: "square.and.pencil")
+                Image(systemName: "highlighter")
                     .resizable()
                     .renderingMode(.template)
                     .frame(width: 28, height: 28)
